@@ -1,6 +1,5 @@
 #!/usr/bin/env python3 
 
-
 class Rectangle:
     def __init__(self, width, height):
         self.width = width
@@ -25,9 +24,6 @@ class Rectangle:
             print()
         return output
 
-
-
-
 def main():
     print ("Rectangle Calculator\n")
     while True:
@@ -42,5 +38,6 @@ def main():
         if choice != "y":
             print ("\nBye!")
             break
+            
 if __name__ == "__main__":
     main()
